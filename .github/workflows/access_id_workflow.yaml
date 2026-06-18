@@ -1,4 +1,4 @@
-name: Access ID Workflow
+name: Access ID1 Workflow
 
 on:
   push:
@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print ACCESS_ID
+      - name: Print ACCESS_ID1
         run: echo 'The ACCESS_ID is "${{ vars.ACCESS_ID }}"'   
